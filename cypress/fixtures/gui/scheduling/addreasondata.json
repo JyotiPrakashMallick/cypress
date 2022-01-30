@@ -1,8 +1,0 @@
-{
-    "reasonName":"test service",
-    "reasonDuration":"30",
-    "reasonDescription":"test service description",
-    "toastMsgFirst":"Success",
-    "toastMsgSecond":"service created"
-     
-  }
