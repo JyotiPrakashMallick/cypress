@@ -1,0 +1,16 @@
+{
+    "name": "autoTest",
+    "plan":"ENTERPRISE",
+    "organization":"UIAutomation",
+    "practice":{
+        "name":"UIAutoTest",
+        "website":"http://autotestcarecru.com   ",
+        "timezone":"America/Montreal",
+        "destinationPhoneNumber":"+14388985511",
+        "street":"test street",
+        "country":"CA",
+        "state":"QC",
+        "city":"Montreal",
+        "zipCode":"H7A 1T3"
+     }
+}

@@ -1,0 +1,9 @@
+{
+    "accountId" : "e1ea81a5-e84a-48b9-be61-aea9c849685e",
+    "insuranceCarrier": "Pay for myself",
+    "practitionerId": "782c6854-2b2d-4a7c-b84b-34bae65621ca",
+    "requestingPatientUserId": "cfdecf5b-a276-4f42-9990-301539b1bd20",
+    "serviceId": "0e454356-cd3e-410e-9031-a5849826253a",
+    "note": "Non Registered patient scenario",
+    "appointmentType": "Regular Checkup & Cleaning"
+}

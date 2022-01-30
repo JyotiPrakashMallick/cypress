@@ -1,0 +1,12 @@
+{
+    "LoginEmail" : "supreet.kaur@carecru.com",
+    "Password" : "#carecru2021", 
+
+    "FirstName":"Mary",
+    "LastName" :"Jane",
+    "DOB" : "04/12/1997",
+    "Gender" :"female",
+
+    "Notes" : "This is the additional info area/notes"
+
+}

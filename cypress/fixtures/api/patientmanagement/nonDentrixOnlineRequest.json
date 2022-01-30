@@ -1,0 +1,14 @@
+{
+    "accountId" : "b81d5494-bdd1-41b2-8678-8ebd678b5071",
+    "insuranceCarrier": "Pay for myself",
+    "patientUserId": "214513f8-33dc-4de0-9016-1ff22c705f7a",
+    "practitionerId": "f29ac4ca-7aae-4665-a2ea-0d0d7e716623",
+    "requestingPatientUserId": "214513f8-33dc-4de0-9016-1ff22c705f7a",
+    "serviceId": "0e454356-cd3e-410e-9031-a5849826253a",
+    "note": "Partial Match case",
+    "appointmentType": "Regular Checkup & Cleaning",
+    "patientName": "Pranay Kumar",
+    "patientNumber": "6476718983",
+    "patientEmail": "pranay.kumar@carecru.com"
+}
+    

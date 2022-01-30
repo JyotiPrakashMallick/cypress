@@ -1,0 +1,16 @@
+{
+    "accountId" : "c925d1c8-a13a-4d62-87d0-690cafd057d9",
+    "insuranceCarrier": "Pay for myself",
+    "patientUserId": "09e6214e-b5f6-48ca-a4cc-49d58cedcc50",
+    "practitionerId": "85371ac6-6b3c-4fd6-892c-3a861e0b081b",
+    "practitionerName": "Dr. Dee Kay",
+    "requestingPatientUserId": "09e6214e-b5f6-48ca-a4cc-49d58cedcc50",
+    "serviceId": "8287413e-16be-4efa-854d-82ccb6189223",
+    "note": "this is a note",
+    "appointmentType": "Regular Checkup & Cleaning",
+    "patientName": "Mary Jane",
+    "patientNumber": "+1 236 833 3442",
+    "patientEmail": "supreet.kaur@carecru.com",
+    "reasonId": "4bcdfc25-8295-459a-b245-ae8c45722106"
+}
+    

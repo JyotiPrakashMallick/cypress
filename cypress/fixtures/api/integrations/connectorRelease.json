@@ -1,0 +1,9 @@
+{
+    "tag": "3.11.4",
+    "url": "http://test.com",
+    "key": "AHFMHSJDURIU6SG89WEG",
+    "secret": "testSecret",
+    "filename": "connector-installer-3.11.4.exe",
+    "path": "installers",
+    "bucket": "carecru.update.production"
+}

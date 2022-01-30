@@ -1,0 +1,16 @@
+export default {
+    practiceHeader: '[title="Practice Details"]',
+    formsBody : 'div[class="styles__generalBodyClass___3lcB3 styles__body___1xk_b"]',
+    addressTitle : 'div[title="Address Information"]',
+    name : '[data-test-id="name"]',
+    website : '[data-test-id="website"]',
+    phoneNumber : '[data-test-id="phoneNumber"]',
+    email : '[data-test-id="contactEmail"]',
+    streetAddress : '[data-test-id="street"]',
+    country : '[data-test-id="country"]> :nth-child(2)>div',
+    province : '[data-test-id="state"]> :nth-child(2)>div',
+    city : '[data-test-id="city"]',
+    postalCode: '[data-test-id="zipCode"]',
+    praticeSaveButton : 'div[class="styles__submitButton___2ZXCE"]>button[title="Save"]',
+    addressSaveButton : 'div[class="styles__submitButton___Elsx6"]>button[title="Save"]',
+}

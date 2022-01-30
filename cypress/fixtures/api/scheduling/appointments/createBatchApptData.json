@@ -1,0 +1,32 @@
+[
+    {
+        "startDate": "2022-01-14T14:30:00Z",
+        "endDate": "2022-01-14T14:35:00Z",
+        "practitionerId": "06c8c992-0c22-4e9d-a7ea-fa4523ba8cb1",
+        "isSyncedWithPMS": false,
+        "isReminderSent": false,
+        "isDeleted": false,
+        "patientId": "22fc4a92-6763-4b1d-b68c-8bef7f4b5bd3",
+        "chairId": "05732568-ea21-44aa-ace9-f8b2a252479f"
+    },
+    {
+        "startDate": "2022-01-14T15:30:00Z",
+        "endDate": "2022-01-14T15:35:00Z",
+        "practitionerId": "0dca376a-f191-4eb2-9c54-d308ca75bafe",
+        "isSyncedWithPMS": false,
+        "isReminderSent": true,
+        "isDeleted": false,
+        "patientId": "0000b046-118e-4f4d-b887-1d61b5a2a5e3",
+        "chairId": "0ce3aa06-3b5b-46f0-9338-5995e3f8e21a"
+    },
+    {
+        "startDate": "2022-01-14T16:30:00Z",
+        "endDate": "2022-01-14T16:35:00Z",
+        "practitionerId": "14d3bd6f-b984-49d2-b33c-4a0eb6bd09f6",
+        "isSyncedWithPMS": false,
+        "isReminderSent": true,
+        "isDeleted": false,
+        "patientId": "0000dc9a-7bbc-46e9-8d10-730552e80888",
+        "chairId": "462f32d4-69ac-4242-924e-03a1ed6f1bdb"
+    }
+]

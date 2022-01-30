@@ -1,0 +1,33 @@
+//https://help.github.com/articles/ignoring-files/ for ignoring files
+
+# dependencies
+/node_modules
+
+# misc
+.DS_Store
+.idea
+
+#videos/screenshot
+cypress/videos
+cypress/screenshots
+
+#workspace
+workspace.code-workspace
+
+#env
+cypress.env.json
+production.json
+stage.json
+development.json
+#reports
+
+.bash_profile
+package.json
+cypress/mochawesome-report
+package-lock.json
+
+cypress/.bash_ownerProfile
+.bash_ownerProfile
+.bash_testPrsoxfile
+development.json
+Jenkinsfile

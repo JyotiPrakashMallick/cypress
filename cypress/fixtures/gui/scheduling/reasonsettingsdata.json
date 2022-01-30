@@ -1,0 +1,13 @@
+{
+  "reasonName":"New Patient Exam & Cleaning",
+  "toastMessageFirst":"Success",
+  "toastMessage2nd":"service was updated",
+  "editedReasonName":"Edited Reason Name",
+  "editedNewDescription": "Edited Description",
+  "editedDuration":"30",
+  "returnNewDescription":"Existing Reason",
+  "returnDuration":"90",
+  "existingReason":"Existing Reason",
+  "toastMessagePractitioner":"SuccessPractitioners updated for "
+   
+}

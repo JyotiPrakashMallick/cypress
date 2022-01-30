@@ -1,0 +1,18 @@
+{
+    "patientName": "Sarita Gautam",
+    "pmsSyncedPatient": "JESzzz WARzzz",
+    "startTime": "7:00 AM",
+    "entTime": "7:30 AM",
+    "toastAptSuccess": "SuccessAdded a new Appointment for ",
+    "toastAptDeleted1": "SuccessUpdated ",
+    "AptDeleted2": "'s Appointment",
+    "username": "qa_abeldent@testing.com",
+        "pwd": "#carecru2020",
+        "pms":"Abeldent",
+        "lastName": "LastName",
+        "firstName": "FirstName",
+        "gender": "Female",
+        "email": "test@test.com"
+        
+    
+}

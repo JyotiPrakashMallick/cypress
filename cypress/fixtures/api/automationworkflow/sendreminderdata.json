@@ -1,0 +1,15 @@
+{
+  "account": {
+    "email": "autoeaglesoft@mailinator.com",
+    "password": "#carecru2020"
+  },
+  "reminder": {
+    "touchpoint": 1,
+    "period": "d",
+    "messageTypes": "email",
+    "dailyRunTime": "12:00"
+  },
+  "patient": {
+    "id": "01920343-1d13-44e5-b6e3-8acff37799dd"
+  }
+}

@@ -1,0 +1,11 @@
+{
+
+    "firstName":"Roby",
+    "lastName":"Bourden",
+    "mobileNumber":"9876543211",
+    "email":"chester@lp.com",
+    "birthDate":"01/01/1972",
+    "toastMessage":"Success",
+    "password":"#carecru2020",
+    "duplicatePatientMsg":"A patient already exists with this first name, last name, phone number and birth date. Please check all fields before adding this patient."
+}

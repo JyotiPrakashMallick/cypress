@@ -1,0 +1,5 @@
+{
+    "updatedVersion": "3.11.0",
+    "connectorPath": "C://Program Files (x86)//CareCru//Connector//lib",
+    "connectorServices":["connectorcache","ConnectorService","ConnectorWDService"]
+}

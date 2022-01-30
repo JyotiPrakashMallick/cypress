@@ -1,0 +1,15 @@
+{
+    "account": {
+      "email": "autouser01@mailinator.com",
+      "password": "#carecru2020"
+    },
+    "reminder": {
+      "touchpoint": 2,
+      "period": "h",
+      "messageTypes": "email",
+      "dailyRunTime": "12:00"
+    },
+    "patient": {
+      "id": "a5465970-a989-4296-9977-002f2bd16bea"
+    }
+  }

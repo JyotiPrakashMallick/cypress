@@ -1,0 +1,137 @@
+/// <reference types="Cypress"/>
+import formsSelector from '../../../../../../support/selectors/automationworkflow/settings/formpage'
+
+/*
+ * AUTO-667: New Patient Intake Form Short
+ */
+describe("Verify the \"Patient Intake Form Short\" can be submitted", () => {
+
+    beforeEach(() => {
+
+        cy.visit(Cypress.env('patientIntakeFormShortUrl'))
+        cy.on('uncaught:exception', (err, runnable) => {
+            return false
+        })
+
+    })
+    it('Fillout the complete form \"Patient Intake Form Short\"', () => {
+
+        cy.get(formsSelector.formsInputFirstName)
+            .should('be.visible')
+            .type('Dummy')
+
+        cy.get(formsSelector.formsInputLastName)
+            .should('be.visible')
+            .type('testdata')
+
+        cy.get(formsSelector.bdate)
+            .should('be.visible')
+            .type('10-20-1990')
+        cy.get(formsSelector.maleGenderSelection)
+            .should('be.visible').check()
+
+        cy.get(formsSelector.nameLegalGuardian)
+            .should('be.visible')
+            .type('sample name')
+
+        cy.get(formsSelector.addressLine1)
+            .should('be.visible')
+            .type('First line of addr')
+        cy.get(formsSelector.addressLine2)
+            .should('be.visible')
+            .type('Second line of addr')
+        cy.get(formsSelector.cityName)
+            .should('be.visible')
+            .type('Vancouver')
+        cy.get(formsSelector.stateName)
+            .should('be.visible')
+            .type('Vancouver')
+        cy.get(formsSelector.postalCode)
+            .should('be.visible')
+            .type('BC V6B 1G8')
+        cy.get(formsSelector.cntryName)
+            .should('be.visible').select('Canada')
+
+        cy.get(formsSelector.areaCode)
+            .should('be.visible')
+            .type('48394')
+        cy.get(formsSelector.phNumber)
+            .should('be.visible')
+            .type('4209838471')
+        cy.get(formsSelector.homePhone)
+            .should('be.visible').click()
+
+        cy.get(formsSelector.emailAddr)
+            .should('be.visible')
+            .type('ydhowejhdfgv24@gmail.com')
+        cy.get(formsSelector.prefContactMthd)
+            .should('be.visible').select('Home Phone')
+        cy.get(formsSelector.occupation)
+            .should('be.visible')
+            .type('Business')
+        cy.get(formsSelector.yesForShortNoticeAppt)
+            .should('be.visible').click()
+        cy.get(formsSelector.thankMsg)
+            .should('be.visible')
+            .type('Anyone')
+        cy.get(formsSelector.rcvEmailAndMsgCheck)
+            .should('be.visible').check()
+        cy.get(formsSelector.nextBtnOnPage).should('be.visible').click()
+
+
+        cy.get(formsSelector.emergFrstNm)
+            .should('be.visible').type('randomdata')
+        cy.get(formsSelector.emergLastNm)
+            .should('be.visible').type('hdaosini')
+        cy.get(formsSelector.relationWithEmerg)
+            .should('be.visible').type('Father')
+        cy.get(formsSelector.emergAreaCd)
+            .should('be.visible').type('47293')
+        cy.get(formsSelector.emergPhNumber)
+            .should('be.visible').type('8493028973')
+        cy.get(formsSelector.subscriberNm)
+            .should('be.visible').type('MSDhoni')
+        cy.get(formsSelector.subsRelationWithPtnt)
+            .should('be.visible').type('Husband')
+        cy.get(formsSelector.subsDate)
+            .should('be.visible').type('11-23-1980')
+        cy.get(formsSelector.insuranceNameField)
+            .should('be.visible').type('HDFC Life')
+        cy.get(formsSelector.policyDescripttion)
+            .should('be.visible').type('Nothing much')
+        cy.get(formsSelector.subsId)
+            .should('be.visible').type('YEBFD38922')
+        cy.get(formsSelector.divisionField)
+            .should('be.visible').type('Main')
+        cy.get(formsSelector.nextBtnOn2ndPage).should('be.visible').click()
+
+        cy.get(formsSelector.noForPreganant)
+            .should('be.visible').click()
+        cy.get(formsSelector.noContraceptives)
+            .should('be.visible').click()
+        cy.get(formsSelector.noTobacco)
+            .should('be.visible').click()
+        cy.get(formsSelector.feedbackForm)
+            .should('be.visible').type('Nothing much')
+        cy.get(formsSelector.primaryPhysician)
+            .should('be.visible').type('Dr.Mathur')
+        cy.get(formsSelector.nextBtnOn3rdPage)
+            .should('be.visible').click()
+
+        cy.get(formsSelector.policyAckCheckBox)
+            .should('be.visible').click()
+        cy.signatureForms()
+        cy.get(formsSelector.intakeFormShortSubmitBtn)
+            .should('be.visible')
+            .click()
+        cy.get(formsSelector.formsTYBanner)
+            .should('be.visible')
+        cy.get(formsSelector.formsH1ThankYou)
+            .should('be.visible')
+            .should('have.text', 'Thank You!')
+        cy.get(formsSelector.formsSubmissionMessage)
+            .should('be.visible')
+            .should('have.text', 'Your submission has been received.')
+    })
+
+})

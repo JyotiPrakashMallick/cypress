@@ -1,0 +1,8 @@
+{
+"chairName": "Auto Chair",
+"chairDesc": "Created by Cypress",
+"isActive": "false",
+"chairNameUpdated": "Chair Updated",
+"chairDescUpdated": "Cypress desc Updated",
+"isActiveUpdated": "true"
+}

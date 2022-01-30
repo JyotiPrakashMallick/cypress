@@ -1,0 +1,24 @@
+{
+     
+    "name": "ADAPTER_TYPE",
+    "description": "The adapter type",
+    "dataTypeString": "string",
+    "value": "ABELDENT_V14",
+
+    "name1": "HYGIENE_TYPES",
+    "description1": "The default continuing care reasons for hygiene",
+    "dataTypeJson": "json",
+    "value1": "[\"sc\"]",
+
+    "name2": "RECALL_TYPES",
+    "description2": "The default continuing care reasons for recall",
+    "value2": "[\"rc\"]",
+
+    "name3": "RECALL_PROCEDURE_CODES",
+    "description3": "A json array of \"recall exam\" procedure codes",
+    "value3": "[\"00121\", \"01202\", \"011%\",\"010%\"]",
+
+    "name4": "HYGIENE_PROCEDURE_CODES",
+    "description4": "A json array of \"hygiene\" procedure codes",
+    "value4": "[\"111%\", \"4342%\", \"4910%\"]"
+}

@@ -1,0 +1,44 @@
+{
+    "fullMatchPatientTroubleshoot": {
+        "accountId": "e1ea81a5-e84a-48b9-be61-aea9c849685e",
+        "insuranceCarrier": "Pay for myself",
+        "patientUserId": "4ef8ea9b-970c-479b-a57f-28855cb40699",
+        "practitionerId": "2cb93191-1765-43e0-a882-faeca04c2553",
+        "requestingPatientUserId": "4ef8ea9b-970c-479b-a57f-28855cb40699",
+        "serviceId": "0e454356-cd3e-410e-9031-a5849826253a",
+        "note": "Full Match",
+        "appointmentType": "Regular Checkup & Cleaning",
+        "patientName": "Jay Pritchett",
+        "patientNumber": "7786522769",
+        "patientEmail": "jay.pritchett1099@mailinator.com",
+        "patientId": "bf6b8447-b99d-43e6-a42f-50f94e29ef4f"
+    },
+    "partialMatchPatientTroubleshoot": {
+        "accountId": "e1ea81a5-e84a-48b9-be61-aea9c849685e",
+        "insuranceCarrier": "Pay for myself",
+        "patientUserId": "cfdecf5b-a276-4f42-9990-301539b1bd20",
+        "practitionerId": "2cb93191-1765-43e0-a882-faeca04c2553",
+        "requestingPatientUserId": "cfdecf5b-a276-4f42-9990-301539b1bd20",
+        "serviceId": "0e454356-cd3e-410e-9031-a5849826253a",
+        "note": "Partial Match",
+        "appointmentType": "Regular Checkup & Cleaning",
+        "patientName": "Holly White",
+        "patientNumber": "6043304512",
+        "patientEmail": "holly.white1909@mailinator.com",
+        "patientId": "806f0918-7191-4666-a22c-6a4ea683263b"
+    },
+    "noAttemptData": {
+        "accountId": "e1ea81a5-e84a-48b9-be61-aea9c849685e",
+        "insuranceCarrier": "Pay for myself",
+        "patientUserId": "003b10a0-d7c1-4302-806c-04893d11b18e",
+        "practitionerId": "2cb93191-1765-43e0-a882-faeca04c2553",
+        "requestingPatientUserId": "003b10a0-d7c1-4302-806c-04893d11b18e",
+        "serviceId": "0e454356-cd3e-410e-9031-a5849826253a",
+        "note": "Full Match",
+        "appointmentType": "Regular Checkup & Cleaning",
+        "patientName": "Ratan Tata",
+        "patientNumber": "7420937493",
+        "patientEmail": "shobhit.mino21398@mailinator.com",
+        "patientId": "e7b67cd5-f513-47f4-9f3e-133535aecb25"
+    }
+}

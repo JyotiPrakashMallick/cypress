@@ -1,0 +1,22 @@
+[
+    {
+        "username": "qa_powerpractise@testing.com",
+        "pwd": "#carecru2020"
+    },
+    {
+        "username": "qa_dentrix@testing.com",
+        "pwd": "#carecru2020"
+    },
+    {
+        "username": "qa_abeldent@testing.com",
+        "pwd": "#carecru2020",
+        "warningMessage": "Are you sure you want to navigate away? Your changes will not be saved.",
+        "warningHeaderMessage": "You have unsaved changes",
+        "emailSubjectEdited": "user can write a subject up to 80 character",
+        "emailBodyEdited": "This is for testing",
+        "emailSubject": "Please confirm your appointment",
+        "emailBody": "Appointment Reminder",
+        "originalMessageType": "Confirmable Reminder",
+        "whenToSendMessageDays": "7 Calendar Days"
+    }
+]

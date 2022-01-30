@@ -1,0 +1,40 @@
+{
+  "reporter": "mochawesome",
+  "screenshotOnRunFailure": true,
+  "screenshotsFolder": "cypress/mochawesome-report",
+  "defaultCommandTimeout": 6000,
+  "responseTimeout": 6000,
+  "pageLoadTimeout": 6000,
+  "requestTimeout": 6000,
+  "taskTimeout": 6000,
+  "chromeWebSecurity": false,
+  "reporterOptions": {
+    "reportDir": "cypress/mochawesome-report",
+    "charts": true,
+    "reportPageTitle": "My Test Suite",
+    "embeddedScreenshots": true,
+    "inlineAssets": true,
+    "overwrite": false,
+    "html": false,
+    "json": true,
+    "quiet": true
+  },
+  "env": {
+    "user": "Harsh",
+    "apiurl": "https://test-backend.carecru.com/auth",
+    "username": "",
+    "backendurl": "https://test-backend.carecru.com/api",
+    "password": " "
+  },
+  "db": {
+    "user": "pgadmin",
+    "host": "localhost",
+    "database": "carecrudb",
+    "password": "dFzBKMhE44MMkHfnfbEq",
+    "port": 5432
+  },
+  "projectId": "6jsmdn",
+  "viewportWidth": 1440,
+  "viewportHeight": 900,
+  "baseUrl": "https://test.carecru.com/"
+}
